@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.1",
+  "dataset": "growth-hack-tips",
+  "language": "zh-Hant",
+  "stages": [
+    {
+      "id": "Acquisition",
+      "label": "獲客"
+    },
+    {
+      "id": "Activation",
+      "label": "啟用"
+    },
+    {
+      "id": "Retention",
+      "label": "留存"
+    },
+    {
+      "id": "Referral",
+      "label": "推薦"
+    },
+    {
+      "id": "Revenue",
+      "label": "變現"
+    }
+  ],
+  "topics": [
+    {
+      "id": "content-marketing",
+      "label": "內容行銷",
+      "description": "以文章、影片、指南、案例、精選、互動內容或教學，提供可獨立理解的價值，支援獲客、啟用、回訪及成交。也含內容分發、再利用與使用者內容；商品本身是課程或內容，不自動歸入此類。",
+      "aliases": [
+        "content marketing",
+        "內容行銷",
+        "内容营销",
+        "內容策略",
+        "內容分發",
+        "內容再利用",
+        "文章帶名單",
+        "影片行銷",
+        "電子報內容",
+        "教學內容帶動使用",
+        "內容如何帶來回訪",
+        "content repurposing",
+        "educational content",
+        "UGC 行銷"
+      ],
+      "tactic_count": 68
+    },
+    {
+      "id": "seo-discovery",
+      "label": "SEO 與搜尋發現",
+      "description": "讓搜尋者在搜尋引擎、App 商店、公開商家或資料頁找到相符入口，包含長尾問題、可索引內容與品牌搜尋承接。站內查找問題另看產品使用與操作體驗。",
+      "aliases": [
+        "SEO",
+        "搜尋引擎優化",
+        "搜索引擎优化",
+        "長尾關鍵字",
+        "自然搜尋流量",
+        "ASO",
+        "App 商店優化",
+        "programmatic SEO",
+        "搜尋排名"
+      ],
+      "tactic_count": 16
+    },
+    {
+      "id": "paid-advertising",
+      "label": "廣告投放與創作者付費合作",
+      "description": "處理付費接觸受眾、素材與商店承接、低額重測與成本核對，以及付費創作者或刊登展示；重點是投放與觸及機制，非顧客付款流程。",
+      "aliases": [
+        "paid advertising",
+        "廣告投放",
+        "广告投放",
+        "付費流量",
+        "廣告素材",
+        "廣告成本太高",
+        "CAC",
+        "creator ads",
+        "網紅合作報酬",
+        "廣告轉換不好"
+      ],
+      "tactic_count": 14
+    },
+    {
+      "id": "partnerships-pr",
+      "label": "合作通路、公關與創作者",
+      "description": "透過互補產品、媒體、創作者、服務商、整合目錄及通路合作觸及相符客羣，包含共同內容、白牌與分潤合作。一般使用者邀朋友另看推薦與分享。",
+      "aliases": [
+        "partnership marketing",
+        "co-marketing",
+        "channel partnership",
+        "PR",
+        "公關曝光",
+        "合作通路",
+        "聯名合作",
+        "創作者合作",
+        "creator partnership",
+        "共同 webinar",
+        "整合目錄",
+        "白牌合作",
+        "合作营销"
+      ],
+      "tactic_count": 30
+    },
+    {
+      "id": "lead-generation",
+      "label": "名單募集與潛客培育",
+      "description": "讓有需求的人自願留下可跟進的需求、預約、候補或訂閱，並把適合的內容、示範與下一步接到後續對話。",
+      "aliases": [
+        "lead generation",
+        "lead nurturing",
+        "名單募集",
+        "名单获取",
+        "留資",
+        "表單名單",
+        "名單磁鐵",
+        "lead magnet",
+        "候補名單",
+        "waitlist",
+        "預約報名",
+        "免費訂閱",
+        "潛客培育",
+        "如何取得合格名單"
+      ],
+      "tactic_count": 33
+    },
+    {
+      "id": "activation-onboarding",
+      "label": "首次價值與新手導入",
+      "description": "縮短新使用者從理解、設定、試用到完成第一個有價值任務的距離，包含真人導入、門市初體驗、協作加入及平臺冷啟動。",
+      "aliases": [
+        "onboarding",
+        "activation",
+        "啟用率",
+        "激活率",
+        "新手引導",
+        "首次價值",
+        "time to value",
+        "第一次使用",
+        "註冊後不用",
+        "導入太慢",
+        "新客體驗",
+        "新用戶如何開始"
+      ],
+      "tactic_count": 65
+    },
+    {
+      "id": "retention-engagement",
+      "label": "回訪、習慣與流失挽回",
+      "description": "在自然使用週期交付新價值、接續進度、建立有意義的習慣，並處理沉睡、取消、迴流及舊客關係。不是所有促購都自動算留存。",
+      "aliases": [
+        "retention",
+        "engagement",
+        "留存",
+        "留存率",
+        "回訪",
+        "复访",
+        "產品使用習慣",
+        "降低流失",
+        "churn prevention",
+        "流失挽回",
+        "沉睡召回",
+        "reactivation",
+        "win-back",
+        "回流用戶"
+      ],
+      "tactic_count": 54
+    },
+    {
+      "id": "referral-sharing",
+      "label": "推薦、邀請與自然分享",
+      "description": "讓受益者以產品獎勵、協作、作品、口碑、評價或人脈引介，帶其他人理解並開始使用；同時保留自主分享和有效推薦條件。",
+      "aliases": [
+        "referral",
+        "referral marketing",
+        "推薦轉介紹",
+        "推荐邀请",
+        "邀請好友",
+        "雙邊獎勵",
+        "口碑推薦",
+        "分享機制",
+        "viral loop",
+        "協作邀請",
+        "客戶引薦",
+        "評論邀請"
+      ],
+      "tactic_count": 46
+    },
+    {
+      "id": "pricing-packaging",
+      "label": "定價、方案與商品組合",
+      "description": "設計可理解的收費單位、需求層級、免費與付費範圍、組合、折扣及付款承諾。也涵蓋把交付做成可採購的服務方案，不將單純換一種內容形式視為內容行銷。",
+      "aliases": [
+        "pricing",
+        "packaging",
+        "定價策略",
+        "定价策略",
+        "方案分層",
+        "價格頁",
+        "訂閱方案",
+        "免費與付費",
+        "freemium",
+        "組合定價",
+        "加購方案",
+        "用量計價",
+        "價格測試",
+        "年約月約"
+      ],
+      "tactic_count": 41
+    },
+    {
+      "id": "paid-conversion",
+      "label": "付費轉換優化",
+      "description": "處理從購買意願到實際成交的障礙，涵蓋方案選擇、試用轉付費、付費牆、購物車、結帳、升級、續約與企業採購。僅改善供貨、商品開發或新增收入來源，沒有直接付費決策機制者不因此納入。",
+      "aliases": [
+        "paid conversion",
+        "付費轉換優化",
+        "付费转化优化",
+        "轉單",
+        "提高成交率",
+        "trial to paid",
+        "試用轉付費",
+        "免費轉付費",
+        "付費牆",
+        "paywall",
+        "結帳流失",
+        "checkout conversion",
+        "升級轉換",
+        "續約轉換",
+        "購買轉換率"
+      ],
+      "tactic_count": 93
+    },
+    {
+      "id": "ecommerce-retail",
+      "label": "電商、商品與門市銷售",
+      "description": "以商品探索、比較、試用、加購、購物車、結帳、交付、回購，以及通路陳列與可購供給改善零售交易。線上電商與實體門市可共同使用。",
+      "aliases": [
+        "ecommerce",
+        "e-commerce",
+        "電商轉換",
+        "电商运营",
+        "零售銷售",
+        "商品頁",
+        "購物車",
+        "結帳優化",
+        "交叉銷售",
+        "加購",
+        "回購",
+        "門市陳列",
+        "通路試銷",
+        "缺貨流失",
+        "商品組合"
+      ],
+      "tactic_count": 61
+    },
+    {
+      "id": "b2b-sales",
+      "label": "B2B 開發、採購與帳戶擴張",
+      "description": "辨識企業需求及決策角色，透過引介、診斷、示範、提案、試點與可靠交付取得採購，並依實際使用擴部門、席次或合約。",
+      "aliases": [
+        "B2B",
+        "B2B sales",
+        "企業業務",
+        "企业销售",
+        "陌生開發",
+        "商務開發",
+        "企業採購",
+        "企業提案",
+        "銷售示範",
+        "sales demo",
+        "客戶試點",
+        "帳戶擴張",
+        "account expansion",
+        "席次擴充",
+        "內部支持者",
+        "champion"
+      ],
+      "tactic_count": 48
+    },
+    {
+      "id": "community-network",
+      "label": "社羣經營與平臺供需",
+      "description": "建立可辨識的社群入口、種子參與、成員共創與互動密度，也處理雙邊平台的供需撮合、商家認領及有效供給。",
+      "aliases": [
+        "community growth",
+        "community building",
+        "社群經營",
+        "社群冷啟動",
+        "社区运营",
+        "種子用戶",
+        "社群共創",
+        "UGC 平台",
+        "marketplace liquidity",
+        "雙邊市場",
+        "供需撮合",
+        "network effects",
+        "商家認領"
+      ],
+      "tactic_count": 36
+    },
+    {
+      "id": "customer-service",
+      "label": "客服、交付與現場體驗",
+      "description": "以真人協助、可靠回覆、問題解決、履約承諾與現場服務，幫客戶完成使用或購買，並改善候位、陪同、首次收貨和重要場合的體驗。",
+      "aliases": [
+        "customer support",
+        "customer success",
+        "客服體驗",
+        "客户服务",
+        "真人協助",
+        "問題解決時間",
+        "售前諮詢",
+        "售後支援",
+        "候位體驗",
+        "門市體驗",
+        "交付承諾",
+        "履約保障",
+        "客訴處理"
+      ],
+      "tactic_count": 39
+    },
+    {
+      "id": "personalization-messaging",
+      "label": "個人化推薦與訊息觸發",
+      "description": "依已知需求、行為、角色與生命週期，選擇相關推薦或提醒；包含啟動信、通知權限、跨渠道頻率、補貨、到期、支付失敗與召回訊息。",
+      "aliases": [
+        "lifecycle messaging",
+        "lifecycle marketing",
+        "個人化推薦",
+        "个性化推荐",
+        "行為觸發",
+        "triggered email",
+        "導入信",
+        "推播",
+        "push notification",
+        "Email 提醒",
+        "訊息頻率",
+        "到期通知",
+        "補貨提醒",
+        "歡迎信",
+        "分眾溝通"
+      ],
+      "tactic_count": 38
+    },
+    {
+      "id": "landing-page-cro",
+      "label": "落地頁、文案與表單轉換",
+      "description": "讓到訪者看懂價值、相信證據並完成下一步，包含來源承諾一致、利益文案、CTA、表單、預覽、信任、價格表達及決策頁資訊。不限付款目標，也適用註冊與留資。",
+      "aliases": [
+        "CRO",
+        "landing page optimization",
+        "落地頁優化",
+        "落地页优化",
+        "網站轉換率",
+        "CTA",
+        "行動呼籲",
+        "表單優化",
+        "註冊轉換",
+        "利益文案",
+        "價值主張",
+        "社會證據",
+        "social proof",
+        "見證案例",
+        "頁面跳出"
+      ],
+      "tactic_count": 34
+    },
+    {
+      "id": "product-usability",
+      "label": "產品操作、查找與流程摩擦",
+      "description": "改善使用者實際操作時的輸入、設定、載入、搜尋、導覽、中斷恢復、跨裝置與錯誤處理，使核心任務順利完成。站內搜尋屬此類，外部搜尋發現另看 SEO。",
+      "aliases": [
+        "product usability",
+        "UX friction",
+        "產品易用性",
+        "使用體驗",
+        "流程摩擦",
+        "操作卡關",
+        "站內搜尋",
+        "導航",
+        "載入速度",
+        "錯誤恢復",
+        "保存進度",
+        "表單重填",
+        "免註冊體驗",
+        "mobile usability",
+        "在地化"
+      ],
+      "tactic_count": 38
+    },
+    {
+      "id": "loyalty-gamification",
+      "label": "獎勵、集點與遊戲化參與",
+      "description": "用清楚且可兌現的獎勵、進度、連續紀錄、成就或共同門檻，鼓勵有價值的參與、推薦與回訪；不把一般降價都歸入遊戲化。",
+      "aliases": [
+        "gamification",
+        "loyalty rewards",
+        "遊戲化",
+        "游戏化",
+        "集點",
+        "積分獎勵",
+        "小組競賽",
+        "里程碑獎勵",
+        "連續打卡",
+        "streak",
+        "成就證書",
+        "分享抽獎",
+        "共同解鎖",
+        "任務獎勵"
+      ],
+      "tactic_count": 26
+    }
+  ]
+}
