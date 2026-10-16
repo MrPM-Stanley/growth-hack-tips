@@ -204,7 +204,7 @@ def main():
     s.add_argument("--exclude", default="", help="逗號分隔的卡號")
     s.add_argument("--json", action="store_true")
     sc = sub.add_parser("scan")
-    sc.add_argument("--stage", default="", help="逗號分隔，例如 Activation,Retention；省略則掃全部 308 張")
+    sc.add_argument("--stage", default="", help="逗號分隔，例如 Activation,Retention；省略則掃全部 351 張")
     sc.add_argument("--topic", default="", help="逗號分隔，可用 id、中文名或別名；省略則不限主題")
     sc.add_argument("--exclude", default="", help="逗號分隔的卡號")
     sh = sub.add_parser("show"); sh.add_argument("ids", nargs="+")

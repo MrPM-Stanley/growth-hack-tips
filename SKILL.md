@@ -1,6 +1,6 @@
 ---
 name: "growth-hack-tips"
-description: 增長做法建議工具。使用者說出要優化的增長環節（獲客、啟用、留存、推薦、變現，或試用轉付費、購物車放棄、門市回購、推薦朋友、B2B 擴席次這類具體環節），skill 逐張掃過內建 308 張繁體中文套路卡中相關階段的每一張，挑出所有可行的卡，選 5 到 8 個當主做法，每個附實際長什麼樣、最小可行版本、看什麼指標，再順著卡片的前置、後續、搭配、替代關係展開延伸做法，其餘可行的卡列成簡表。只給做法，不診斷、不排優先序。務必在以下情境觸發：使用者說「growth hack tips」「/growth-hack-tips」「給我增長做法」；或在增長脈絡下說「我想優化 X」「X 有什麼具體做法」「有什麼套路可以拉 X」。不要在以下情境觸發：要廣告切入點＝ad-planning；要網頁 AB test 清單＝ab-test-planner；要產品企劃或痛點分析＝product-planning、product-pain-point；使用者還不知道要優化什麼、或要排優先序＝不觸發。
+description: 增長做法建議工具。使用者說出要優化的增長環節（AARRR 任一階段，或試用轉付費、購物車放棄、門市回購、推薦朋友、B2B 擴席次這類具體環節），skill 逐張掃過內建 351 張繁體中文套路卡中相關階段的每一張，選 5 到 8 個當主做法（附實際長什麼樣、最小可行版本、看什麼指標），順著卡片的前置、後續、搭配、替代關係展開延伸做法，其餘可行卡列成簡表。只給做法，不診斷、不排優先序。也負責維護卡庫：使用者給套路卡 MD 檔，判斷和既有卡是否重疊，再新增或併入、更新索引並重新打包。務必在以下情境觸發：使用者說「growth hack tips」「/growth-hack-tips」「給我增長做法」；在增長脈絡下說「我想優化 X」「X 有什麼具體做法」「有什麼套路可以拉 X」；使用者給套路卡 MD 檔，說要新增、更新或加進這支 skill。不要在以下情境觸發：要廣告切入點＝ad-planning；要網頁 AB test 清單＝ab-test-planner；要產品企劃或痛點分析＝product-planning、product-pain-point；使用者還不知道要優化什麼、或要排優先序＝不觸發。
 ---
 
 # Growth Hack Tips
@@ -23,10 +23,10 @@ description: 增長做法建議工具。使用者說出要優化的增長環節�
 
 ## 資料
 
-- `data/tactics-1.jsonl` 到 `tactics-6.jsonl`：308 張套路卡，每行一個 JSON，六個檔合計（為單檔大小限制而拆，腳本會自動全部讀入）。`text` 是卡片全文，`metadata` 有 `tactic_id`、`title`、`aarrr_stages`、`topic_ids`、`when_to_use`、`applicable_contexts`、`related`（前置、後續、搭配、替代）、`source_citations`。
-- `data/taxonomy.json`：五個階段與 18 個主題，主題附中英文別名，`scripts/ght.py topics` 會印出來。
+- `data/tactics-1.jsonl` 到 `tactics-8.jsonl`：351 張套路卡，每行一個 JSON，八個檔合計（為單檔大小限制而拆，腳本會自動全部讀入）。`text` 是卡片全文，`metadata` 有 `tactic_id`、`title`、`aarrr_stages`、`topic_ids`、`when_to_use`、`applicable_contexts`、`related`（前置、後續、搭配、替代）、`source_citations`。
+- `data/taxonomy.json`：五個階段與 19 個主題，主題附中英文別名，`scripts/ght.py topics` 會印出來。
 - `data/README.md`：欄位說明、增補段與相關套路的性質、變更紀錄。要改卡或加卡時先讀它。
-- 卡片的性質：T001 到 T277 依來源材料整理，T278 到 T380 與所有「增補」段落是編輯依常見實務撰寫，來源為事後核對。兩者都不是實測結果。
+- 卡片的性質：T001 到 T277 依來源材料整理，T278 到 T380 與所有「增補」段落是編輯依常見實務撰寫，來源為事後核對；T381 到 T403 依五門線上課程的筆記整理，T404 到 T425（T409、T419 已刪）是依兩門遊戲化課程整理的遊戲化卡，舉例一律用養成習慣 App，來源段都註明課程、單元與頁次。這些都不是實測結果。
 
 已安裝的 skill 資料夾是唯讀的，不要在裡面寫任何檔案；有暫存需求放到工作資料夾。
 
@@ -59,6 +59,8 @@ python3 scripts/ght.py expand T296 --depth 1                     # 順著相關�
 - 門市、回購、客單價：ecommerce-retail 加 retention-engagement 或 paid-conversion
 - 企業客戶、擴席次、採購卡關：b2b-sales
 - 平台兩邊都不夠、冷啟動：community-network
+- 想用遊戲化（任務、連續紀錄、排行榜、收集、彩蛋、增益道具）拉某個環節：照環節決定階段，主題加 gamification；點數、會員等級、儲值、推薦獎勵類再加 loyalty-gamification
+- 只說要遊戲化做法、沒講環節：先照「輸入」一節問要優化哪個環節；使用者堅持要看全部，就跑 `scan --topic gamification` 全列，照 Step 2 歸類
 
 ### Step 2：全掃階段內的卡
 
@@ -117,6 +119,8 @@ python3 scripts/ght.py expand T296 --depth 1                     # 順著相關�
 - 只有逐張掃過的卡才能說「掃過」。如果因為範圍太大只掃了一部分，回覆裡要明說掃了哪些、沒掃哪些，不可以宣稱全掃。
 - 同一個對話裡使用者追問「還有嗎」：先把「其他可行卡」裡他點名的展開成完整做法格式；他要的是新的卡，就掃相鄰階段（用 `scan --exclude` 排掉已掃過的卡），照同樣三類歸類後回報。
 
-## 維護
+## 維護：使用者給卡片 MD 檔時
 
-要加卡：照 `data/README.md` 的格式寫一行 JSON 追加到任一個 `tactics-N.jsonl`，`related` 要雙向都加，`taxonomy.json` 的 `tactic_count` 要重算。要改卡：改 `text` 後重算 `content_sha256`（sha256 of UTF-8 text）。資料夾唯讀，改完要重新打包安裝。
+使用者丟套路卡 MD 檔，要新增或更新卡片時，不走上面的找卡流程，改讀 `references/update-sop.md`，照它的步驟做：在 skill 資料夾的複本上作業、判斷和既有卡是完全重疊、部分重疊還是不重疊、卡號自動編、主題只用既有分類（不在裡面先和使用者確認）、內部資料先問怎麼處理、用 `scripts/ght_admin.py` 寫入並驗證，最後重新打包成 .skill。
+
+不要手動改 jsonl：雙向連結、`content_sha256`、`tactic_count`、文件裡的總張數都由 `ght_admin.py` 一起處理，`validate` 會檢查全庫一致性。

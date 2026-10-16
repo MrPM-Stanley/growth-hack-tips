@@ -45,7 +45,7 @@
         "educational content",
         "UGC 行銷"
       ],
-      "tactic_count": 68
+      "tactic_count": 70
     },
     {
       "id": "seo-discovery",
@@ -62,7 +62,7 @@
         "programmatic SEO",
         "搜尋排名"
       ],
-      "tactic_count": 16
+      "tactic_count": 20
     },
     {
       "id": "paid-advertising",
@@ -80,7 +80,7 @@
         "網紅合作報酬",
         "廣告轉換不好"
       ],
-      "tactic_count": 14
+      "tactic_count": 16
     },
     {
       "id": "partnerships-pr",
@@ -101,7 +101,7 @@
         "白牌合作",
         "合作营销"
       ],
-      "tactic_count": 30
+      "tactic_count": 34
     },
     {
       "id": "lead-generation",
@@ -123,7 +123,7 @@
         "潛客培育",
         "如何取得合格名單"
       ],
-      "tactic_count": 33
+      "tactic_count": 36
     },
     {
       "id": "activation-onboarding",
@@ -143,7 +143,7 @@
         "新客體驗",
         "新用戶如何開始"
       ],
-      "tactic_count": 65
+      "tactic_count": 70
     },
     {
       "id": "retention-engagement",
@@ -165,7 +165,7 @@
         "win-back",
         "回流用戶"
       ],
-      "tactic_count": 54
+      "tactic_count": 72
     },
     {
       "id": "referral-sharing",
@@ -185,7 +185,7 @@
         "客戶引薦",
         "評論邀請"
       ],
-      "tactic_count": 46
+      "tactic_count": 49
     },
     {
       "id": "pricing-packaging",
@@ -207,7 +207,7 @@
         "價格測試",
         "年約月約"
       ],
-      "tactic_count": 41
+      "tactic_count": 51
     },
     {
       "id": "paid-conversion",
@@ -230,7 +230,7 @@
         "續約轉換",
         "購買轉換率"
       ],
-      "tactic_count": 93
+      "tactic_count": 103
     },
     {
       "id": "ecommerce-retail",
@@ -253,7 +253,7 @@
         "缺貨流失",
         "商品組合"
       ],
-      "tactic_count": 61
+      "tactic_count": 70
     },
     {
       "id": "b2b-sales",
@@ -298,7 +298,7 @@
         "network effects",
         "商家認領"
       ],
-      "tactic_count": 36
+      "tactic_count": 42
     },
     {
       "id": "customer-service",
@@ -319,7 +319,7 @@
         "履約保障",
         "客訴處理"
       ],
-      "tactic_count": 39
+      "tactic_count": 40
     },
     {
       "id": "personalization-messaging",
@@ -342,7 +342,7 @@
         "歡迎信",
         "分眾溝通"
       ],
-      "tactic_count": 38
+      "tactic_count": 41
     },
     {
       "id": "landing-page-cro",
@@ -365,7 +365,7 @@
         "見證案例",
         "頁面跳出"
       ],
-      "tactic_count": 34
+      "tactic_count": 36
     },
     {
       "id": "product-usability",
@@ -388,29 +388,55 @@
         "mobile usability",
         "在地化"
       ],
-      "tactic_count": 38
+      "tactic_count": 39
     },
     {
       "id": "loyalty-gamification",
-      "label": "獎勵、集點與遊戲化參與",
-      "description": "用清楚且可兌現的獎勵、進度、連續紀錄、成就或共同門檻，鼓勵有價值的參與、推薦與回訪；不把一般降價都歸入遊戲化。",
+      "label": "獎勵、集點與會員忠誠",
+      "description": "用清楚且可兌現的點數、儲值、會員等級、推薦獎勵與轉贈，鼓勵回訪、累積與推薦；遊戲機制本身（任務、連續紀錄、排行榜、通行證、彩蛋）歸「遊戲化」，一般降價不歸這裡。",
       "aliases": [
-        "gamification",
         "loyalty rewards",
-        "遊戲化",
-        "游戏化",
+        "loyalty program",
+        "會員忠誠",
+        "忠誠計畫",
         "集點",
         "積分獎勵",
-        "小組競賽",
-        "里程碑獎勵",
+        "點數兌換",
+        "會員等級",
+        "儲值",
+        "分享抽獎",
+        "推薦獎勵",
+        "轉贈"
+      ],
+      "tactic_count": 35
+    },
+    {
+      "id": "gamification",
+      "label": "遊戲化",
+      "description": "把遊戲機制用在非遊戲產品上，引導使用者做出期望行為：任務與進度、連續紀錄、成就與身分、排行與競賽、收集、彩蛋與驚喜、增益道具、遊戲迴圈與敘事活動；舉例一律以養成習慣 App 說明。遊戲本身的營運與變現手法不歸這裡；也不收誘導付費、製造人為中斷或靠恐懼上癮鎖人的黑帽變形。",
+      "aliases": [
+        "gamification",
+        "遊戲化",
+        "游戏化",
+        "遊戲機制",
+        "八角框架",
+        "Octalysis",
+        "任務獎勵",
+        "進度條",
         "連續打卡",
         "streak",
+        "排行榜",
+        "小組競賽",
         "成就證書",
-        "分享抽獎",
+        "徽章",
         "共同解鎖",
-        "任務獎勵"
+        "里程碑獎勵",
+        "彩蛋",
+        "收集",
+        "通行證",
+        "遊戲迴圈"
       ],
-      "tactic_count": 26
+      "tactic_count": 33
     }
   ]
 }
